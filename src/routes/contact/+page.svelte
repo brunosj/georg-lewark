@@ -1,8 +1,9 @@
 <script lang="ts">
 	import SEO from '$lib/components/SEO/index.svelte';
 	import Form from '$components/Contact/Form.svelte';
-	import ProfilePicture from '$lib/assets/images/Profile_Picture_Georg_Lewark.jpg';
+	import ProfilePicture from '$lib/assets/images/Profile_Picture_Georg_Lewark.jpg?as=run&imagetools';
 	import ExternalLink from '$components/Link/ExternalLink.svelte';
+	import Img from '@zerodevx/svelte-img';
 
 	// SEO
 	let title = 'Contact';
@@ -29,7 +30,9 @@
 <article id="contact">
 	<section class="container">
 		<div class="info">
-			<img src={ProfilePicture} alt="Georg Lewark" class="picture" />
+			<div class="picture">
+				<Img src={ProfilePicture} alt="Georg Lewark" style="border-radius: 100%;" />
+			</div>
 			<div class="description">
 				<h3>Georg Lewark</h3>
 				<div>
@@ -58,10 +61,6 @@
 		min-height: 75vh;
 	}
 
-	p {
-		font-size: 0.8rem;
-	}
-
 	.info {
 		display: flex;
 		align-items: center;
@@ -79,7 +78,6 @@
 	.picture {
 		width: 25%;
 		height: 25%;
-		border-radius: 100%;
 	}
 
 	.description > * {
@@ -115,14 +113,10 @@
 		}
 
 		.description > * {
-			margin: 0.5rem 0;
+			margin: 1rem 0;
 		}
 
 		.links {
-			font-size: 1rem;
-		}
-
-		p {
 			font-size: 1rem;
 		}
 	}

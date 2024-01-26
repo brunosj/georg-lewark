@@ -60,11 +60,15 @@ h4 {
 p {
 	font-size: 0.9rem;
 	line-height: 1.5rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .hidden-desktop {
 	display: block;
+}
+
+.hidden-mobile {
+	display: none;
 }
 
 .markdown :is(a) {
@@ -108,7 +112,7 @@ p {
 }
 
 .markdown :is(ul) {
-	list-style: disc;
+	list-style: none;
 	list-style-position: inside;
 }
 
@@ -119,14 +123,15 @@ p {
 }
 
 .markdown :is(li) {
-	font-weight: 300;
-	font-size: 1.2rem;
-	line-height: 1.8rem;
 	font-weight: 400;
+	font-size: 0.9rem;
+	/* line-height: 1.8rem; */
+	font-weight: 400;
+	margin-bottom: 1rem;
 }
 
 .markdown :is(p) {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	line-height: 1.5rem;
 	font-weight: 400;
 	margin-bottom: 1rem;
@@ -152,6 +157,10 @@ p {
 @media (min-width: 60em) {
 	.hidden-desktop {
 		display: none;
+	}
+
+	.hidden-mobile {
+		display: block;
 	}
 
 	h1 {
@@ -181,6 +190,10 @@ p {
 		font-size: 1.2rem;
 		line-height: 1.9rem;
 		font-weight: 400;
+	}
+
+	.markdown :is(li) {
+		font-size: 1.2rem;
 	}
 
 	.markdown :is(p) {

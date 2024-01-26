@@ -32,7 +32,7 @@
 
 	:global(article) {
 		margin-top: 5rem;
-		margin-bottom: 2.5rem;
+		margin-bottom: 3rem;
 	}
 
 	:global(.container) {

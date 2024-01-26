@@ -17,9 +17,15 @@ slug: 'the-greatest-sin'
 Directed by Gabriel B. Arrahnio  
 Produced by William Eggert
 
+<div class="hidden-desktop">
+
+![Movie Poster](../../assets/projects/the-greatest-sin/the-greatest-sin_poster.jpg)
+
+</div>
+
 ### Mentions & Festivals
 
-2023 - Hamburg International Queer Film Festival  
-2023 - Afrika Film Festival Cologne  
-2022 - Kurzfilmfestival Dresden  
-2022 - Portugal Queer Lisboa - International Queer Film Festival
+- 2023 - Hamburg International Queer Film Festival
+- 2023 - Afrika Film Festival Cologne
+- 2022 - Kurzfilmfestival Dresden
+- 2022 - Portugal Queer Lisboa - International Queer Film Festival

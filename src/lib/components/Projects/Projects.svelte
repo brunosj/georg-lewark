@@ -52,7 +52,7 @@
 		margin: auto;
 		display: inline-flex;
 		padding: 0.5rem 2rem;
-		gap: 2rem;
+		gap: 1rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -80,5 +80,11 @@
 
 	p.selected {
 		opacity: 1;
+	}
+
+	@media (min-width: 50em) {
+		.filters {
+			gap: 2rem;
+		}
 	}
 </style>

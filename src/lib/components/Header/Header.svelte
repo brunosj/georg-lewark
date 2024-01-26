@@ -35,7 +35,7 @@
 			</div>
 			<ul class="menu">
 				{#each menu as { name, slug }}
-					<li class:selected={currentPage === slug}>
+					<li class:selected={currentPage.includes(slug)}>
 						<a href={slug}>
 							<span>{name}</span>
 						</a>

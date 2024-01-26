@@ -57,6 +57,14 @@
 		overflow-wrap: break-word;
 	}
 
+	.fixed {
+		display: none;
+	}
+
+	.grid {
+		margin-bottom: 3rem;
+	}
+
 	.poster {
 		width: 100%;
 		margin: auto;
@@ -86,6 +94,7 @@
 		}
 
 		.fixed {
+			display: inline-block;
 			margin-top: 4rem;
 			position: sticky;
 			top: 7rem;

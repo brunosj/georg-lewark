@@ -30,7 +30,7 @@
 </script>
 
 <li>
-	<a href={slug} on:mouseenter={handleMouseEnter} on:mouseleave={handleMouseOut}>
+	<a href={`projects/${slug}`} on:mouseenter={handleMouseEnter} on:mouseleave={handleMouseOut}>
 		<div class="content">
 			<div class="stills">
 				{#each projectStills as still, index}
@@ -43,7 +43,7 @@
 					</div>
 				{/each}
 			</div>
-			<div class="layer" class:display={isHovered}>
+			<div class="layer hidden-mobile" class:display={isHovered}>
 				{#if isHovered}
 					<div
 						class="title"
@@ -109,7 +109,11 @@
 		display: flex;
 	}
 
-	li:nth-child(even) .mobile-title p {
+	.mobile-title p {
+		font-weight: 500;
+	}
+
+	li:nth-child(odd) .mobile-title p {
 		margin-left: auto;
 	}
 
