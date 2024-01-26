@@ -30,7 +30,7 @@
 			}}>
 			<div class="logo">
 				<a href="/" aria-label="Georg Lewark">
-					<p>Georg Lewark</p>
+					<span>Georg Lewark</span>
 				</a>
 			</div>
 			<ul class="menu">
@@ -65,6 +65,11 @@
 		max-width: 95%;
 	}
 
+	.logo span {
+		color: var(--color-primary);
+		font-weight: 500;
+	}
+
 	li {
 		list-style: none;
 		border-bottom: 1px solid var(--color-black);
@@ -85,7 +90,7 @@
 	span {
 		position: relative;
 		line-height: 1;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		font-family: 'Work Sans Variable', sans-serif;
 	}
 
@@ -98,7 +103,7 @@
 
 	@media (min-width: 55em) {
 		span {
-			font-size: 1rem;
+			font-size: 1.1rem;
 		}
 
 		.menu {

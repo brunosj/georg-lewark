@@ -96,9 +96,23 @@
 	}
 
 	button {
-		background-color: transparent;
-		color: var(--color-white);
 		cursor: pointer;
+		background-color: transparent;
+		border-bottom: 1px solid var(--color-black);
+		border-bottom-color: var(--color-black);
+		display: inline-block;
+		transition: border 0.2s linear;
+		margin: 0;
+		padding: 0;
+	}
+
+	button span {
+		font-size: 0.9rem;
+		color: var(--color-primary);
+	}
+
+	button:hover {
+		border-bottom-color: var(--color-primary);
 	}
 
 	button span {
@@ -171,5 +185,11 @@
 
 	.absolute {
 		position: absolute;
+	}
+
+	@media (min-width: 50em) {
+		button span {
+			font-size: 1.2rem;
+		}
 	}
 </style>
