@@ -15,6 +15,8 @@
 	$: {
 		currentPage = $page.url.pathname;
 	}
+
+	$: console.log(currentPage);
 </script>
 
 <header>
@@ -35,7 +37,7 @@
 			</div>
 			<ul class="menu">
 				{#each menu as { name, slug }}
-					<li class:selected={currentPage.includes(slug)}>
+					<li class:selected={currentPage.match(new RegExp(`^${slug}(/|$)`))}>
 						<a href={slug}>
 							<span>{name}</span>
 						</a>
@@ -59,7 +61,7 @@
 		right: 0;
 		display: flex;
 		align-items: center;
-		margin: 0.6rem auto;
+		margin: 1rem auto;
 		flex-direction: row;
 		justify-content: space-between;
 		max-width: 95%;
@@ -72,11 +74,11 @@
 
 	li {
 		list-style: none;
-		border-bottom: 1px solid var(--color-black);
-		border-bottom-color: var(--color-black);
+		border-bottom: 1px solid rgb(var(--color-blackrgb), 0.8);
+		background-color: rgb(var(--color-blackrgb), 0.8);
 		display: inline-block;
 		transition: border 0.2s linear;
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 
 	li:hover {
