@@ -1,15 +1,19 @@
 ---
-name: 'I Was Never Really Here (Short Fiction)'
+name: 'I Was Never Really Here'
 year: '2023'
 url: 'https://vimeo.com/764106187'
-type: 'documentary'
+type: 'fiction'
 description: 'A love story about two boys who meet over a summer that will forever change their lives'
+producer: ''
+writer: ''
+director: ''
 slug: 'i-was-never-really-here'
+order: 7
 ---
 
 <script>
   import ExternalLink from '$lib/components/Link/ExternalLink.svelte';
-  import Link from '$lib/components/Link/Link.svelte';
+  import Link from '$lib/components/Link/Link.svelte';  
 </script>
 
 **<span style="color:#F6E06F;">I WAS NEVER REALLY HERE</span>** is a love story about two boys who meet over a summer that will forever change their lives. Kwesi understands he is not in a privileged position as he awaits the news about his residence permit, but the hot summer days allow the boys to escape for a moment, even if it means holding on to these memories for as long as they can.

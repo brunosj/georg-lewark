@@ -5,6 +5,7 @@ export interface Project {
 	description: string;
 	type: 'documentary' | 'fiction';
 	slug: string;
+	order: number;
 }
 
 export interface Blog {

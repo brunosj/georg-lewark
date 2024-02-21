@@ -15,8 +15,6 @@
 	$: {
 		currentPage = $page.url.pathname;
 	}
-
-	$: console.log(currentPage);
 </script>
 
 <header>
@@ -93,7 +91,7 @@
 		position: relative;
 		line-height: 1;
 		font-size: 0.9rem;
-		font-family: 'Work Sans Variable', sans-serif;
+		font-family: 'Trade Gothic', sans-serif;
 	}
 
 	.menu {

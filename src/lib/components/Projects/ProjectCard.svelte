@@ -33,13 +33,13 @@
 	<a href={`projects/${slug}`} on:mouseenter={handleMouseEnter} on:mouseleave={handleMouseOut}>
 		<div class="content">
 			<div class="stills">
-				{#each projectStills as still, index}
+				{#each projectStills.slice(0, 3) as still, index}
 					<!-- <div class:mobile={index % 2 === 1}> -->
 					<div>
 						<Img
 							src={still}
 							alt={name || ''}
-							style="border-top-right-radius:6px;border-top-left-radius:6px;" />
+							style="border-top-right-radius:0px;border-top-left-radius:0px;" />
 					</div>
 				{/each}
 			</div>
@@ -73,7 +73,7 @@
 		background-color: var(--color-gray);
 		width: 90%;
 		margin: auto;
-		border-radius: 6px;
+		border-radius: 0px;
 		margin-bottom: 1rem;
 	}
 
@@ -98,7 +98,7 @@
 
 	.title {
 		background-color: var(--color-black);
-		border-radius: 12px;
+		border-radius: 0px;
 		padding: 1rem;
 	}
 

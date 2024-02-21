@@ -2,9 +2,13 @@
 name: 'The Greatest Sin'
 year: '2023'
 url: ''
-type: 'fiction'
+type: 'documentary'
 description: 'A film that combines the voices of four black queer men'
+producer: ''
+writer: ''
+director: ''
 slug: 'the-greatest-sin'
+order: 5
 ---
 
 <script>

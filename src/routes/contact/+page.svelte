@@ -31,7 +31,7 @@
 	<section class="container">
 		<div class="info">
 			<div class="picture">
-				<Img src={ProfilePicture} alt="Georg Lewark" style="border-radius: 100%;" />
+				<Img src={ProfilePicture} alt="Georg Lewark" style="border-radius: 0px;" />
 			</div>
 			<div class="description">
 				<h3>Georg Lewark</h3>

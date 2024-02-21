@@ -6,7 +6,7 @@
 
 	let filteredProjects: Project[];
 	let selectedFilter: string;
-	$: filteredProjects = projects;
+	$: filteredProjects = projects.sort((a, b) => (a.order < b.order ? 1 : -1));
 	$: selectedFilter = 'all';
 
 	function filterByType(type: string) {
@@ -31,6 +31,9 @@
 			<button on:click={() => filterByType('documentary')}>
 				<p class:selected={selectedFilter === 'documentary'}>documentary</p>
 			</button>
+			<button on:click={() => filterByType('other')}>
+				<p class:selected={selectedFilter === 'other'}>other</p>
+			</button>
 		</div>
 	</div>
 	{#key filteredProjects}
@@ -48,7 +51,7 @@
 	}
 
 	.filters {
-		background-color: var(--color-gray);
+		/* background-color: var(--color-gray); */
 		margin: auto;
 		display: inline-flex;
 		padding: 0.5rem 2rem;
@@ -56,7 +59,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border-radius: 12px;
+		border-radius: 0px;
 	}
 
 	button {

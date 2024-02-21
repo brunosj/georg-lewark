@@ -8,7 +8,7 @@
 	import SEO from '$components/SEO/SEO.svelte';
 	import Img from '@zerodevx/svelte-img';
 	import ExternalLink from '$components/Link/ExternalLink.svelte';
-
+	import { Lightbox, LightboxGallery, GalleryThumbnail, GalleryImage } from 'svelte-lightbox';
 	import { getProjectImage, getProjectStills } from '$lib/utils/getProjectVisuals';
 
 	let item: Project = data.meta;
@@ -21,11 +21,31 @@
 		projectImage = getProjectImage(slug);
 		projectStills = getProjectStills(slug);
 	});
+
+	let lightboxProgrammaticController;
 </script>
 
 <SEO title={`${name} | Georg Lewark`} {description} />
 
 <article>
+	<section class="stills">
+		<LightboxGallery
+			arrowsConfig={{ color: 'transparent', character: 'loop', enableKeyboardControl: true }}>
+			<svelte:fragment slot="thumbnail">
+				{#each projectStills as still, i}
+					<GalleryThumbnail title="name" id={i}>
+						<Img src={still} alt={name || ''} />
+					</GalleryThumbnail>
+				{/each}
+			</svelte:fragment>
+
+			{#each projectStills as still}
+				<GalleryImage title={'Name'} description="image">
+					<Img src={still} alt={name || ''} />
+				</GalleryImage>
+			{/each}
+		</LightboxGallery>
+	</section>
 	<section class="grid container">
 		<aside class="fixed">
 			<div class="poster">
@@ -42,11 +62,6 @@
 				<svelte:component this={data.content} />
 			</div>
 		</div>
-	</section>
-	<section class="stills">
-		{#each projectStills as still}
-			<Img src={still} alt={name || ''} />
-		{/each}
 	</section>
 </article>
 
@@ -75,9 +90,10 @@
 		justify-content: center;
 		margin: 2rem auto;
 	}
+
 	.stills {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		display: flex;
+		flex-wrap: wrap;
 		opacity: 1;
 		transition: all 0.3s ease-in-out;
 	}
@@ -85,12 +101,18 @@
 	@media (min-width: 50em) {
 		.grid {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(4, 1fr);
 			gap: 6rem;
 		}
 
 		.content {
-			grid-column: 2 / 4;
+			grid-column: 2 / 5;
+			width: 75%;
+			margin: auto;
+		}
+
+		.stills {
+			flex-wrap: nowrap;
 		}
 
 		.fixed {

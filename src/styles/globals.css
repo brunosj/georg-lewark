@@ -15,9 +15,32 @@
 	overflow: hidden;
 } */
 
+@font-face {
+	font-family: 'Trade Gothic';
+	src: local('Trade-Gothic-Bold'), local('Trade Gothic Bold'), url('/fonts/trade-gothic-bold.ttf');
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Trade Gothic Italic';
+	src: local('Trade-Gothic-Italic'), local('Trade Gothic Italic'),
+		url('/fonts/trade-gothic-italic.ttf');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Trade Gothic';
+	src: local('Trade-Gothic'), local('Trade Gothic'), url('/fonts/trade-gothic.ttf');
+	font-weight: normal;
+	font-display: swap;
+}
+
 html,
 body {
-	font-family: 'Inter Variable', sans-serif;
+	font-family: 'Trade Gothic', sans-serif;
 	margin: 0;
 	color: var(--color-white);
 	background-color: var(--color-black);
@@ -27,25 +50,25 @@ body {
 
 p,
 span {
-	font-family: 'Inter Variable', sans-serif;
+	font-family: 'Trade Gothic', sans-serif;
 }
 
 h1 {
-	font-family: 'Work Sans Variable', sans-serif;
+	font-family: 'Trade Gothic', sans-serif;
 	font-size: 2rem;
 	line-height: 2rem;
 	margin-bottom: 1rem;
 }
 
 h2 {
-	font-family: 'Work Sans Variable', sans-serif;
+	font-family: 'Trade Gothic', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
 	font-weight: 600;
 }
 
 h3 {
-	font-family: 'Work Sans Variable', sans-serif;
+	font-family: 'Trade Gothic', sans-serif;
 	font-size: 1.25rem;
 	line-height: 1.25rem;
 	font-weight: 600;
@@ -150,7 +173,7 @@ p {
 	background-color: var(--color-gray);
 	/* width: 100%; */
 	display: block;
-	border-radius: 12px;
+	border-radius: 0px;
 	white-space: pre-wrap !important;
 }
 

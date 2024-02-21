@@ -91,7 +91,7 @@
 	section {
 		margin: auto;
 		width: 100%;
-		border-radius: 12px;
+		border-radius: 0px;
 		background-color: var(--color-gray);
 	}
 
@@ -145,7 +145,7 @@
 	}
 
 	.container {
-		border-radius: 8px;
+		border-radius: 0px;
 		padding: 3rem 0rem;
 		margin: auto;
 	}
@@ -156,7 +156,7 @@
 		font-size: 1rem;
 		width: 100%;
 		border: transparent;
-		border-radius: 4px;
+		border-radius: 0px;
 		background-color: var(--color-black);
 		padding: 0.5rem 1rem;
 		transition: border-color 0.3s ease-in-out;
