@@ -95,7 +95,7 @@ p {
 }
 
 .markdown :is(a) {
-	color: #d6fff6;
+	color: var(--color-primary);
 }
 
 .markdown :is(a:hover) {

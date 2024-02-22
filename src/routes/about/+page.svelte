@@ -27,7 +27,7 @@
 <article id="about">
 	<section class="container">
 		<div class="picture">
-			<img src={ProfilePicture} alt="Georg Lewark" class="object-cover h-full w-full" />
+			<img src={ProfilePicture} alt="Georg Lewark" />
 		</div>
 		<div>
 			<p>Georg Lewark is a filmmaker</p>

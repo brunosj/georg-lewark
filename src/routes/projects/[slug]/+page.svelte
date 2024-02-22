@@ -3,8 +3,6 @@
 
 	import type { Project } from '$lib/types/types';
 	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
-	import { cubicInOut } from 'svelte/easing';
 	import SEO from '$components/SEO/SEO.svelte';
 	import Img from '@zerodevx/svelte-img';
 	import ExternalLink from '$components/Link/ExternalLink.svelte';
@@ -15,14 +13,12 @@
 	let projectImage: string;
 	let projectStills: string[] = [];
 
-	let { name, url, type, description, slug } = item;
+	let { name, url, type, producer, director, writer, description, year, slug, color } = item;
 
 	onMount(() => {
 		projectImage = getProjectImage(slug);
 		projectStills = getProjectStills(slug);
 	});
-
-	let lightboxProgrammaticController;
 </script>
 
 <SEO title={`${name} | Georg Lewark`} {description} />
@@ -34,7 +30,9 @@
 			<svelte:fragment slot="thumbnail">
 				{#each projectStills as still, i}
 					<GalleryThumbnail title="name" id={i}>
-						<Img src={still} alt={name || ''} />
+						<div class="still">
+							<Img src={still} alt={name || ''} />
+						</div>
 					</GalleryThumbnail>
 				{/each}
 			</svelte:fragment>
@@ -46,16 +44,62 @@
 			{/each}
 		</LightboxGallery>
 	</section>
-	<section class="grid container">
+	<section class="grid container information">
 		<aside class="fixed">
-			<div class="poster">
-				<Img src={projectImage} alt={name} />
-			</div>
-			{#if url !== ''}
-				<div class="link">
-					<ExternalLink ariaLabel="Watch film" href={url}>Watch film</ExternalLink>
-				</div>
+			{#if name}
+				<h3 style="color:{color}">{name}</h3>
 			{/if}
+
+			<div class="details">
+				<span class="detail">
+					{#if year}
+						{year}
+					{/if} -
+					{#if type}
+						<span style="text-transform: capitalize;">
+							{type}
+						</span>
+					{/if}
+				</span>
+			</div>
+
+			<div class="details">
+				{#if director}
+					<div class="detail">
+						<p style="text-transform: uppercase;">Directed by</p>
+						<p>
+							{director}
+						</p>
+					</div>
+				{/if}
+
+				{#if producer}
+					<div class="detail">
+						<p style="text-transform: uppercase;">Produced by</p>
+						<p>
+							{producer}
+						</p>
+					</div>
+				{/if}
+
+				{#if writer}
+					<div class="detail">
+						<p style="text-transform: uppercase;">Written by</p>
+						<p>
+							{writer}
+						</p>
+					</div>
+				{/if}
+			</div>
+			<div class="">
+				{#if url !== ''}
+					<ExternalLink ariaLabel="Watch film" href={url}>Watch film</ExternalLink>
+				{/if}
+
+				<div class="poster">
+					<Img src={projectImage} alt={name} />
+				</div>
+			</div>
 		</aside>
 		<div class="content">
 			<div class="markdown">
@@ -66,29 +110,28 @@
 </article>
 
 <style>
+	article {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.markdown {
-		margin: 3rem auto;
+		margin: 1rem auto;
 		width: 100%;
 		overflow-wrap: break-word;
 	}
 
-	.fixed {
+	/* .fixed {
 		display: none;
-	}
+	} */
 
 	.grid {
 		margin-bottom: 3rem;
 	}
 
 	.poster {
-		width: 100%;
-		margin: auto;
-	}
-
-	.link {
-		display: flex;
-		justify-content: center;
-		margin: 2rem auto;
+		width: 75%;
+		margin-top: 1rem;
 	}
 
 	.stills {
@@ -96,23 +139,49 @@
 		flex-wrap: wrap;
 		opacity: 1;
 		transition: all 0.3s ease-in-out;
+		order: 2;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		margin: 1rem auto;
+	}
+
+	.details > * {
+		margin: 0.4rem 0;
+	}
+
+	.detail p {
+		font-size: 0.9em;
+		margin-bottom: 0;
+		line-height: 1.5rem;
+	}
+
+	.poster {
+		display: none;
 	}
 
 	@media (min-width: 50em) {
 		.grid {
 			display: grid;
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(3, 1fr);
 			gap: 6rem;
 		}
 
 		.content {
-			grid-column: 2 / 5;
+			grid-column: 2 / 4;
 			width: 75%;
-			margin: auto;
+			/* margin: auto; */
 		}
 
 		.stills {
 			flex-wrap: nowrap;
+			order: 1;
+		}
+
+		.information {
+			order: 2;
 		}
 
 		.fixed {
@@ -121,6 +190,19 @@
 			position: sticky;
 			top: 7rem;
 			align-self: flex-start;
+			grid-column: 1 / 2;
+		}
+
+		.poster {
+			display: block;
+		}
+
+		.detail p {
+			font-size: 1rem;
+		}
+
+		.markdown {
+			margin: 3rem auto;
 		}
 	}
 </style>

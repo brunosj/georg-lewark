@@ -4,9 +4,9 @@ year: '2024'
 url: ''
 type: 'fiction'
 description: "A young woman's journey leads to her confrontation with her roots and acceptance of her hybrid identity."
-producer: ''
-writer: ''
-director: ''
+producer: 'Ádám Tarkövi, Charlotte Selbach and Sara Russo'
+writer: 'Alice Palchetti'
+director: 'Alice Palchetti'
 slug: 'alma'
 order: 8
 ---
@@ -16,14 +16,9 @@ order: 8
   import Link from '$lib/components/Link/Link.svelte';  
 </script>
 
-**<span style="color:#F6E06F;">ALMA</span>**
-
 WORK IN PROGRESS
 
 A young woman's journey leads to her confrontation with her roots and acceptance of her hybrid identity.
-
-Directed & Written by Alice Palchetti
-Produced by Ádám Tarkövi, Charlotte Selbach and Sara Russo
 
 <div class="hidden-desktop">
 <!-- <ExternalLink ariaLabel="Watch film" href='https://vimeo.com/764106187'>Watch film</ExternalLink> -->

@@ -6,7 +6,7 @@ type: 'documentary'
 description: 'A film that combines the voices of four black queer men'
 producer: ''
 writer: ''
-director: ''
+director: 'Jan-Oke Jens'
 slug: 'primal-paths'
 order: 4
 ---
@@ -16,13 +16,11 @@ order: 4
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-**<span style="color:#823257;">Primal Paths</span>**
+A group of young men are training for the apocalypse.
 
-Directed by Jan-Oke Jens
-
-<div class="hidden-desktop">
+<!-- <div class="hidden-desktop">
 <ExternalLink ariaLabel="Watch film" href='https://vimeo.com/913634530?share=copy'>Watch film</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 
-</div>
+</div> -->

@@ -6,6 +6,10 @@ export interface Project {
 	type: 'documentary' | 'fiction';
 	slug: string;
 	order: number;
+	writer: string;
+	director: string;
+	producer: string;
+	color: string;
 }
 
 export interface Blog {

@@ -1,14 +1,14 @@
 ---
-name: 'Lucien'
+name: 'Vanishing Point'
 year: '2023'
 url: ''
-type: 'documentary'
+type: 'other'
 description: 'A film that combines the voices of four black queer men'
-producer: ''
+producer: 'Anna Laszlo'
 writer: ''
-director: 'Felix Maria Bühler'
-slug: 'lucien'
-order: 1
+director: 'Anna Laszlo'
+slug: 'vanishing-point'
+order: 2
 ---
 
 <script>
@@ -16,7 +16,7 @@ order: 1
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-A portrait of genderqueer sex worker Lucien Lafayette, shot on 16mm film.
+The model puts light in the focus with its tunnel shape and perspective, and the distortion, movement, and reflection of the light with the help of mirrors revolve around the spectator turning it into a spatial building element.
 
 <!-- <div class="hidden-desktop">
 <ExternalLink ariaLabel="Watch film" href=''>Watch film</ExternalLink>

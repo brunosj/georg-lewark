@@ -4,11 +4,12 @@ year: '2023'
 url: 'https://vimeo.com/764106187'
 type: 'fiction'
 description: 'A love story about two boys who meet over a summer that will forever change their lives'
-producer: ''
-writer: ''
-director: ''
+producer: 'Vincent Edusai and Frithjof Stückemann'
+writer: 'Johanna Bungarten, Judith Rose Gyabaah, Gabriel B. Arrahnio'
+director: 'Gabriel B. Arrahnio'
 slug: 'i-was-never-really-here'
 order: 7
+color: '#F6E06F'
 ---
 
 <script>
@@ -16,18 +17,14 @@ order: 7
   import Link from '$lib/components/Link/Link.svelte';  
 </script>
 
-**<span style="color:#F6E06F;">I WAS NEVER REALLY HERE</span>** is a love story about two boys who meet over a summer that will forever change their lives. Kwesi understands he is not in a privileged position as he awaits the news about his residence permit, but the hot summer days allow the boys to escape for a moment, even if it means holding on to these memories for as long as they can.
-Directed by Gabriel B. Arrahnio
+A love story about two boys who meet over a summer that will forever change their lives. Kwesi understands he is not in a privileged position as he awaits the news about his residence permit, but the hot summer days allow the boys to escape for a moment, even if it means holding on to these memories for as long as they can.
 
-Written by Johanna Bungarten, Judith Rose Gyabaah, Gabriel B. Arrahnio  
-Produced by Vincent Edusai und Frithjof Stückemann
-
-<div class="hidden-desktop">
+<!-- <div class="hidden-desktop">
 <ExternalLink ariaLabel="Watch film" href='https://vimeo.com/764106187'>Watch film</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 
-</div>
+</div> -->
 
 ### Mentions & Festivals
 
@@ -46,7 +43,7 @@ Produced by Vincent Edusai und Frithjof Stückemann
 - XX.09.2023 - 20. Afrika Film Festival Köln | NRW-Premiere
 - 13.10.2023 - HFF Kurzfilmabend @Queer Film Festival München
 - 08.09.2023 - <ExternalLink href='https://www.fameweekafrica.com/en-gb/fameshortsfestival/Detail.3535.209504.i-was-never-really-here.html' ariaLabel='Fame Week South Africa link'>Fame - Week Africa Shorts Film Festival</ExternalLink> Kapstadt | South Africa Premiere
-- 03.12.2023 <ExternalLink href='https://poitiersfilmfestival.com/' ariaLabel='Fame Week South Africa link'>Poitiers Film Festival </ExternalLink>(Students award)
+- 03.12.2023 - <ExternalLink href='https://poitiersfilmfestival.com/' ariaLabel='Fame Week South Africa link'>Poitiers Film Festival </ExternalLink>(Students award)
 - 23.11.2023 - Deutscher Kurzfilmpreis 2023 (Nominated)
 - 18.11.2023 - Interfilm - Internationales Kurzfilmfestival Berlin
 - 12.11.2023 - FILMZ - Festival des deutschen Kinos (Audience Award)

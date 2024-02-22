@@ -4,9 +4,9 @@ year: '2024'
 url: ''
 type: 'documentary'
 description: "A young woman's journey leads to her confrontation with her roots and acceptance of her hybrid identity.",
-producer: ''
+producer: 'Georg Lewark'
 writer: ''
-director: ''
+director: 'Georg Lewark'
 slug: 'el-camino'
 order: 6
 ---
@@ -16,11 +16,9 @@ order: 6
   import Link from '$lib/components/Link/Link.svelte';  
 </script>
 
-**<span style="color:#F6E06F;">El Camino</span>**
+Growing up in a hostile environment in the periphery of Mexico City, Do25incos career as an artist started at the beginning of a young age, inspired by the "Sonideros" in Mexican popular culture and hip hop tapes that he bought on the flea market.
 
-WORK IN PROGRESS
-
-Produced & directed by Georg Lewark
+His tracks as a rapper address social issues and show solidarity with migrant communities worldwide, while Daniel is fighting with (self-)acceptance of his cultural identity as a mexican “paisa” living in a german society.
 
 <div class="hidden-desktop">
 <!-- <ExternalLink ariaLabel="Watch film" href='https://vimeo.com/764106187'>Watch film</ExternalLink> -->
