@@ -8,7 +8,7 @@
 	import Img from '@zerodevx/svelte-img';
 
 	// SEO
-	let title = 'contact';
+	let title = 'Contact';
 	let metadescription = '';
 	const breadcrumbs = [
 		{
@@ -29,7 +29,7 @@
 </script>
 
 <SEO {...seoProps} />
-<article id="contact">
+<article id="Contact">
 	<section class="container">
 		<div class="left-column">
 			<div class="info">
@@ -45,7 +45,7 @@
 					<div class="links">
 						<ExternalLink href="mailto:info@georglewark.de" ariaLabel="mail button"
 							>mail</ExternalLink>
-						<ExternalLink href="https://www.instagram.com/georglewark/" ariaLabel="instagram button"
+						<ExternalLink href="https://www.instagram.com/g.lewark/" ariaLabel="instagram button"
 							>instagram</ExternalLink>
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 	.contact {
 		width: 100%;
 		margin: auto;
-		margin-top: 3rem;
+		margin-top: 1rem;
 	}
 
 	.picture {
@@ -118,6 +118,7 @@
 		section {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
+			gap: 4rem;
 		}
 
 		.info {

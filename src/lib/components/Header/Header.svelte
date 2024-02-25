@@ -29,7 +29,7 @@
 				delay: 250
 			}}>
 			<div class="logo">
-				<a href="/" aria-label="Georg Lewark">
+				<a href="/" aria-label="Georg Lewark Homepage">
 					<span>Georg Lewark</span>
 				</a>
 			</div>
@@ -67,7 +67,7 @@
 
 	.logo span {
 		color: var(--color-primary);
-		font-weight: 500;
+		font-weight: 600;
 	}
 
 	li {

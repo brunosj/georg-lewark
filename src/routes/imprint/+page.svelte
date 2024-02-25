@@ -82,11 +82,6 @@
 			margin-top: 7rem;
 		}
 
-		.svg-bg {
-			width: 100%;
-			top: -35%;
-		}
-
 		.description {
 			width: 75%;
 			margin: 0 auto;

@@ -55,7 +55,7 @@
 		margin: auto;
 		display: inline-flex;
 		padding: 0.5rem 2rem;
-		gap: 1rem;
+		gap: 0.8rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;

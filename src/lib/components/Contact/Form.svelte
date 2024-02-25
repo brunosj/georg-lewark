@@ -51,19 +51,20 @@
 					update({ reset: false });
 				};
 			}}>
+			<p class="get-touch">Get in touch!</p>
 			<div class="field">
 				<label for="name" class="font-semibold"> Name </label>
-				<input type="text" name="name" class="form-input" />
+				<input type="text" name="name" class="input form" />
 			</div>
 			<div class="field">
 				<label for="email" class="font-semibold"> Email</label>
-				<input type="email" name="email" class="form-input" value={form?.email ?? ''} required />
+				<input type="email" name="email" class="input form" value={form?.email ?? ''} required />
 			</div>
 
 			<div class="field">
 				<label for="message" class="font-semibold"> Message</label>
 				<div>
-					<textarea name="message" class="form-input message" />
+					<textarea name="message" class="input message" />
 				</div>
 			</div>
 			<div>
@@ -107,7 +108,7 @@
 	}
 
 	button span {
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 		color: var(--color-primary);
 	}
 
@@ -121,6 +122,7 @@
 		display: inline-block;
 		transition: border 0.2s linear;
 		font-size: 1rem;
+		font-weight: 700;
 	}
 
 	button:hover span {
@@ -129,6 +131,7 @@
 
 	label {
 		color: var(--color-white);
+		font-size: 0.9rem;
 	}
 
 	form {
@@ -140,20 +143,26 @@
 		margin-top: 1.5rem;
 	}
 
+	.get-touch {
+		font-weight: 700;
+		margin-bottom: 2rem;
+		font-size: 1.1rem;
+	}
+
 	.field > * + * {
 		margin-top: 0.75rem;
 	}
 
 	.container {
 		border-radius: 0px;
-		padding: 3rem 0rem;
+		padding: 2rem 0rem;
 		margin: auto;
 	}
 
-	.form-input {
+	.input {
 		box-sizing: border-box;
 		color: var(--color-white);
-		font-size: 1rem;
+		/* font-size: 1rem; */
 		width: 100%;
 		border: transparent;
 		border-radius: 0px;
@@ -161,11 +170,10 @@
 		padding: 0.5rem 1rem;
 		transition: border-color 0.3s ease-in-out;
 		outline: none;
-		height: 2rem;
 	}
 
 	.message {
-		padding-bottom: 5rem;
+		padding-bottom: 7rem;
 		font-family: 'Rubik Variable', sans-serif;
 	}
 
@@ -190,6 +198,18 @@
 	@media (min-width: 50em) {
 		button span {
 			font-size: 1.2rem;
+		}
+
+		label {
+			font-size: 1rem;
+		}
+
+		.get-touch {
+			font-size: 1.2rem;
+		}
+
+		.container {
+			padding: 3rem 0rem;
 		}
 	}
 </style>

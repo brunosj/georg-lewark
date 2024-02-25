@@ -61,12 +61,10 @@
 						</span>
 					{/if}
 				</span>
-			</div>
 
-			<div class="details">
 				{#if director}
 					<div class="detail">
-						<p style="text-transform: uppercase;">Directed by</p>
+						<p style="text-transform: uppercase;" class="credits">Directed by</p>
 						<p>
 							{director}
 						</p>
@@ -75,7 +73,7 @@
 
 				{#if producer}
 					<div class="detail">
-						<p style="text-transform: uppercase;">Produced by</p>
+						<p style="text-transform: uppercase;" class="credits">Produced by</p>
 						<p>
 							{producer}
 						</p>
@@ -84,7 +82,7 @@
 
 				{#if writer}
 					<div class="detail">
-						<p style="text-transform: uppercase;">Written by</p>
+						<p style="text-transform: uppercase;" class="credits">Written by</p>
 						<p>
 							{writer}
 						</p>
@@ -116,7 +114,7 @@
 	}
 
 	.markdown {
-		margin: 1rem auto;
+		margin: 2rem auto;
 		width: 100%;
 		overflow-wrap: break-word;
 	}
@@ -149,7 +147,7 @@
 	}
 
 	.details > * {
-		margin: 0.4rem 0;
+		margin: 0.5rem 0;
 	}
 
 	.detail p {
@@ -182,11 +180,11 @@
 
 		.information {
 			order: 2;
+			margin-top: 3rem;
 		}
 
 		.fixed {
 			display: inline-block;
-			margin-top: 4rem;
 			position: sticky;
 			top: 7rem;
 			align-self: flex-start;
@@ -202,7 +200,7 @@
 		}
 
 		.markdown {
-			margin: 3rem auto;
+			margin: 0 auto;
 		}
 	}
 </style>
