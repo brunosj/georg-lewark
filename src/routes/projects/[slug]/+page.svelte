@@ -13,7 +13,20 @@
 	let projectImage: string;
 	let projectStills: string[] = [];
 
-	let { name, url, type, producer, director, writer, description, year, slug, color } = item;
+	let {
+		name,
+		url,
+		type,
+		producer,
+		director,
+		writer,
+		description,
+		year,
+		slug,
+		color,
+		length,
+		cinematography
+	} = item;
 
 	onMount(() => {
 		projectImage = getProjectImage(slug);
@@ -38,9 +51,11 @@
 			</svelte:fragment>
 
 			{#each projectStills as still}
-				<GalleryImage title={'Name'} description="image">
-					<Img src={still} alt={name || ''} />
-				</GalleryImage>
+				<div class="image-container">
+					<GalleryImage title={'Name'} description="image">
+						<Img src={still} alt={name || ''} />
+					</GalleryImage>
+				</div>
 			{/each}
 		</LightboxGallery>
 	</section>
@@ -88,10 +103,28 @@
 						</p>
 					</div>
 				{/if}
+
+				{#if cinematography}
+					<div class="detail">
+						<p style="text-transform: uppercase;" class="credits">Cinematography by</p>
+						<p>
+							{cinematography}
+						</p>
+					</div>
+				{/if}
+
+				{#if length}
+					<div class="detail">
+						<p style="text-transform: uppercase;" class="credits">Running time</p>
+						<p>
+							{length}
+						</p>
+					</div>
+				{/if}
 			</div>
 			<div class="">
 				{#if url !== ''}
-					<ExternalLink ariaLabel="Watch film" href={url}>Watch film</ExternalLink>
+					<ExternalLink ariaLabel="Watch" href={url}>Watch</ExternalLink>
 				{/if}
 
 				<div class="poster">
@@ -108,6 +141,23 @@
 </article>
 
 <style>
+	/* .image-container {
+		width: 40%;
+		margin: auto;
+	} */
+
+	:global(.svelte-lightbox-body) {
+		max-width: 90vw;
+	}
+
+	:global(.svelte-lightbox-header) {
+		margin-bottom: 0.5rem;
+	}
+
+	:global(.svelte-lightbox-footer) {
+		margin-top: 0.5rem;
+	}
+
 	article {
 		display: flex;
 		flex-direction: column;

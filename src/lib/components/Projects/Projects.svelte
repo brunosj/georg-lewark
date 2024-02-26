@@ -3,6 +3,11 @@
 
 	import type { Project } from '$lib/types/types';
 	import ProjectCard from '$components/Projects/ProjectCard.svelte';
+	import { fly, slide, fade } from 'svelte/transition';
+	import { onMount } from 'svelte';
+	import { cubicInOut } from 'svelte/easing';
+
+	let animate = false;
 
 	let filteredProjects: Project[];
 	let selectedFilter: string;
@@ -13,29 +18,41 @@
 		filteredProjects = projects.filter((project) => project.type === type);
 		selectedFilter = type;
 	}
+
+	onMount(() => {
+		animate = true;
+	});
 </script>
 
 <article id="projects" class="page-container">
-	<div class="filter-container">
-		<div class="filters">
-			<button
-				on:click={() => {
-					filteredProjects = projects;
-					selectedFilter = 'all';
+	{#if animate}
+		<div class="filter-container">
+			<div
+				class="filters"
+				transition:fade={{
+					duration: 500,
+					easing: cubicInOut,
+					delay: 200
 				}}>
-				<p class:selected={selectedFilter === 'all'}>all films</p>
-			</button>
-			<button on:click={() => filterByType('fiction')}>
-				<p class:selected={selectedFilter === 'fiction'}>fiction</p>
-			</button>
-			<button on:click={() => filterByType('documentary')}>
-				<p class:selected={selectedFilter === 'documentary'}>documentary</p>
-			</button>
-			<button on:click={() => filterByType('other')}>
-				<p class:selected={selectedFilter === 'other'}>other</p>
-			</button>
+				<button
+					on:click={() => {
+						filteredProjects = projects;
+						selectedFilter = 'all';
+					}}>
+					<p class:selected={selectedFilter === 'all'}>all films</p>
+				</button>
+				<button on:click={() => filterByType('fiction')}>
+					<p class:selected={selectedFilter === 'fiction'}>fiction</p>
+				</button>
+				<button on:click={() => filterByType('documentary')}>
+					<p class:selected={selectedFilter === 'documentary'}>documentary</p>
+				</button>
+				<button on:click={() => filterByType('other')}>
+					<p class:selected={selectedFilter === 'other'}>other</p>
+				</button>
+			</div>
 		</div>
-	</div>
+	{/if}
 	{#key filteredProjects}
 		{#each filteredProjects as item, i}
 			<ProjectCard {item} />

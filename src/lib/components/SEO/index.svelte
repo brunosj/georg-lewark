@@ -1,7 +1,7 @@
 <script>
-	import ogSquareImageSrc from '$lib/assets/images/lz_logo_seo.jpg';
-	import ogImageSrc from '$lib/assets/images/lz_logo_seo.jpg';
-	import featuredImageSrc from '$lib/assets/images/lz_logo_seo.jpg';
+	import ogSquareImageSrc from '$lib/assets/images/og_image.jpg';
+	import ogImageSrc from '$lib/assets/images/og_image.jpg';
+	import featuredImageSrc from '$lib/assets/images/og_image.jpg';
 	import { website } from '$lib/data/config';
 	import OpenGraph from './OpenGraph.svelte';
 	import SchemaOrg from './SchemaOrg.svelte';

@@ -23,7 +23,7 @@
 			class="container"
 			transition:fly={{
 				y: -100,
-				duration: 500,
+				duration: 650,
 				easing: cubicInOut,
 				opacity: 1,
 				delay: 250

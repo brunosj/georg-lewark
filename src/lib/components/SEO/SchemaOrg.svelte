@@ -140,8 +140,8 @@
 			'@type': 'ImageObject',
 			'@id': `${siteUrl}/#personlogo`,
 			inLanguage: siteLanguage,
-			url: `${siteUrl}/lz_logo_seo.jpg`,
-			contentUrl: `${siteUrl}/lz_logo_seo.jpg`,
+			url: `${siteUrl}/og_image.jpg`,
+			contentUrl: `${siteUrl}/og_image.jpg`,
 			width: 512,
 			height: 512,
 			caption: entity

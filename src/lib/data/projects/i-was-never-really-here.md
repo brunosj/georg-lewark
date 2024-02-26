@@ -4,12 +4,13 @@ year: '2023'
 url: 'https://vimeo.com/764106187'
 type: 'fiction'
 description: 'A love story about two boys who meet over a summer that will forever change their lives'
-producer: 'Vincent Edusai and Frithjof Stückemann'
-writer: 'Johanna Bungarten, Judith Rose Gyabaah, Gabriel B. Arrahnio'
+producer: 'Vincent Edusai & Frithjof Stückemann'
+writer: 'Johanna Bungarten, Judith Rose Gyabaah & Gabriel B. Arrahnio'
 director: 'Gabriel B. Arrahnio'
 slug: 'i-was-never-really-here'
 order: 7
 color: '#F6E06F'
+length: '22 minutes'
 ---
 
 <script>
@@ -20,7 +21,7 @@ color: '#F6E06F'
 A love story about two boys who meet over a summer that will forever change their lives. Kwesi understands he is not in a privileged position as he awaits the news about his residence permit, but the hot summer days allow the boys to escape for a moment, even if it means holding on to these memories for as long as they can.
 
 <!-- <div class="hidden-desktop">
-<ExternalLink ariaLabel="Watch film" href='https://vimeo.com/764106187'>Watch film</ExternalLink>
+<ExternalLink ariaLabel="Watch" href='https://vimeo.com/764106187'>Watch</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 

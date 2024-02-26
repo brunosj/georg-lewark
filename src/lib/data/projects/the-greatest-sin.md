@@ -10,6 +10,7 @@ director: 'Gabriel B. Arrahnio'
 slug: 'the-greatest-sin'
 order: 5
 color: '#823257'
+length: '25 minutes'
 ---
 
 <script>

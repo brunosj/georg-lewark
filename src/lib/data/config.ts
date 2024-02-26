@@ -13,7 +13,7 @@ export const website = {
 	siteTitle: `Georg Lewark - Filmmaker based in Berlin`,
 	siteShortTitle: 'Georg Lewark - Filmmaker based in Berlin',
 	siteDescription: `Georg Lewark - Filmmaker based in Berlin`,
-	siteImage: `https://www.landozone.net/lz_logo_seo.jpg`,
+	siteImage: `https://www.georglewark.de/og_image.jpg`,
 	twitter: `@brunosj`,
 	backgroundColor: '#14151d',
 	themeColor: '#8786df',

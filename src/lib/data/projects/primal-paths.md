@@ -9,6 +9,7 @@ writer: ''
 director: 'Jan-Oke Jens'
 slug: 'primal-paths'
 order: 4
+length: '5 minutes'
 ---
 
 <script>
@@ -19,7 +20,7 @@ order: 4
 A group of young men are training for the apocalypse.
 
 <!-- <div class="hidden-desktop">
-<ExternalLink ariaLabel="Watch film" href='https://vimeo.com/913634530?share=copy'>Watch film</ExternalLink>
+<ExternalLink ariaLabel="Watch" href='https://vimeo.com/913634530?share=copy'>Watch</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 

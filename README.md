@@ -1,4 +1,4 @@
-![landozone](static/lz_logo_seo.jpg)
+![landozone](static/og_image.jpg)
 
 ## Description
 

@@ -9,6 +9,7 @@ writer: ''
 director: 'Felix Maria Bühler'
 slug: 'lucien'
 order: 1
+length: '5 minutes'
 ---
 
 <script>
@@ -19,7 +20,7 @@ order: 1
 A portrait of genderqueer sex worker Lucien Lafayette, shot on 16mm film.
 
 <!-- <div class="hidden-desktop">
-<ExternalLink ariaLabel="Watch film" href=''>Watch film</ExternalLink>
+<ExternalLink ariaLabel="Watch" href=''>Watch</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 

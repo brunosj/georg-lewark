@@ -23,7 +23,7 @@ https://macentabeans.de/
 Produced by Macenta Beans
 
 <!-- <div class="hidden-desktop">
-<ExternalLink ariaLabel="Watch film" href='https://www.youtube.com/watch?v=mHZa4TdjGHE&t=57s'>Watch film</ExternalLink>
+<ExternalLink ariaLabel="Watch" href='https://www.youtube.com/watch?v=mHZa4TdjGHE&t=57s'>Watch</ExternalLink>
 
 ![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
 

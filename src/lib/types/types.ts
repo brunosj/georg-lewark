@@ -10,6 +10,8 @@ export interface Project {
 	director: string;
 	producer: string;
 	color: string;
+	length: string;
+	cinematography: string;
 }
 
 export interface Blog {
