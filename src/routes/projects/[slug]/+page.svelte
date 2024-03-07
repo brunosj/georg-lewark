@@ -17,6 +17,7 @@
 		name,
 		url,
 		type,
+		subtype,
 		producer,
 		director,
 		writer,
@@ -70,9 +71,9 @@
 					{#if year}
 						{year}
 					{/if} -
-					{#if type}
+					{#if subtype || type}
 						<span style="text-transform: capitalize;">
-							{type}
+							{subtype || type}
 						</span>
 					{/if}
 				</span>

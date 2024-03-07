@@ -3,6 +3,7 @@ name: 'Vanishing Point'
 year: '2023'
 url: ''
 type: 'other'
+subtype: 'Art Installation'
 description: 'A film that combines the voices of four black queer men'
 producer: 'Anna László'
 writer: ''
@@ -18,8 +19,7 @@ color: '#225389'
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-An immersive Kaleidoscope experience. The two-meter long installation was built from wood, mirror foil and translucent plastic.
-The model puts light in the focus with its tunnel shape and perspective. The distortion, movement and reflection of the light revolve around the spectator, turning it into a spatial building element.
+This two-meter long immersive Kaleidoscope installation was built from wood, mirror foil and translucent plastic. The distortion, movement and reflection of the light inside this tunnel shape revolve around the spectator, turning it into a spatial building element. To feel like looking into a real Kaleidoskop, Georg used a blablabla tripod head to turn the camera around her own z-Axis.
 
 <!-- <div class="hidden-desktop">
 <ExternalLink ariaLabel="Watch" href=''>Watch</ExternalLink>

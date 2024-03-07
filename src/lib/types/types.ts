@@ -12,6 +12,7 @@ export interface Project {
 	color: string;
 	length: string;
 	cinematography: string;
+	subtype: string;
 }
 
 export interface Blog {
