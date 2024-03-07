@@ -141,13 +141,15 @@
 </article>
 
 <style>
-	/* .image-container {
-		width: 40%;
+	.image-container {
+		/* width: 40%; */
 		margin: auto;
-	} */
+		object-fit: contain;
+	}
 
-	:global(.svelte-lightbox-body) {
-		max-width: 90vw;
+	:global(.svelte-lightbox-body img) {
+		max-height: 75vh !important;
+		width: auto !important;
 	}
 
 	:global(.svelte-lightbox-header) {

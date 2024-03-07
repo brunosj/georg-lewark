@@ -9,6 +9,7 @@ writer: ''
 director: ''
 slug: 'macenta-beans'
 order: 0
+color: '#8D9459'
 ---
 
 <script>

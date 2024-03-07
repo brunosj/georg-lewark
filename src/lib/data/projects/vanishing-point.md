@@ -10,6 +10,7 @@ director: 'Anna László'
 slug: 'vanishing-point'
 order: 2
 length: '5 minutes'
+color: '#225389'
 ---
 
 <script>
@@ -17,7 +18,8 @@ length: '5 minutes'
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-The model puts light in the focus with its tunnel shape and perspective, and the distortion, movement, and reflection of the light with the help of mirrors revolve around the spectator turning it into a spatial building element.
+An immersive Kaleidoscope experience. The two-meter long installation was built from wood, mirror foil and translucent plastic.
+The model puts light in the focus with its tunnel shape and perspective. The distortion, movement and reflection of the light revolve around the spectator, turning it into a spatial building element.
 
 <!-- <div class="hidden-desktop">
 <ExternalLink ariaLabel="Watch" href=''>Watch</ExternalLink>

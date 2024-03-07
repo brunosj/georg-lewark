@@ -10,6 +10,7 @@ director: 'Jan-Oke Jens'
 slug: 'primal-paths'
 order: 4
 length: '5 minutes'
+color: '#976637'
 ---
 
 <script>

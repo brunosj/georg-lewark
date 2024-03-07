@@ -9,7 +9,7 @@ writer: ''
 director: 'Georg Lewark'
 slug: 'el-camino'
 order: 6
-color: ''
+color: '#4E4784'
 length: ''
 ---
 
@@ -17,6 +17,8 @@ length: ''
   import ExternalLink from '$lib/components/Link/ExternalLink.svelte';
   import Link from '$lib/components/Link/Link.svelte';  
 </script>
+
+WORK IN PROGRESS
 
 Growing up in a hostile environment in the periphery of Mexico City, Do25incos career as an artist started at the beginning of a young age, inspired by the "Sonideros" in Mexican popular culture and hip hop tapes that he bought on the flea market.
 

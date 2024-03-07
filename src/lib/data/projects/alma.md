@@ -9,6 +9,7 @@ writer: 'Alice Palchetti'
 director: 'Alice Palchetti'
 slug: 'alma'
 order: 8
+color: '#852324'
 ---
 
 <script>

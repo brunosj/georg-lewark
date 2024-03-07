@@ -34,6 +34,7 @@ import KaleidoskopStill2 from '$lib/assets/projects/kaleidoskop/kaleidoskop_stil
 import KaleidoskopStill3 from '$lib/assets/projects/kaleidoskop/kaleidoskop_still3.jpg?as=run&imagetools';
 import KaleidoskopStill4 from '$lib/assets/projects/kaleidoskop/kaleidoskop_still4.jpg?as=run&imagetools';
 import KaleidoskopStill5 from '$lib/assets/projects/kaleidoskop/kaleidoskop_still5.jpg?as=run&imagetools';
+import KaleidoskopStill6 from '$lib/assets/projects/kaleidoskop/kaleidoskop_still6.jpg?as=run&imagetools';
 
 import LaManchaStill1 from '$lib/assets/projects/la-mancha/la-mancha_still1.jpg?as=run&imagetools';
 import LaManchaStill2 from '$lib/assets/projects/la-mancha/la-mancha_still2.jpg?as=run&imagetools';
@@ -103,7 +104,7 @@ export function getProjectStills(slug: string): ImageStills {
 		'i-was-never-really-here': [IWNRHStill1, IWNRHStill2, IWNRHStill3, IWNRHStill4, IWNRHStill5, IWNRHStill6, IWNRHStill7, IWNRHStill8, IWNRHStill9],
 		'the-greatest-sin': [TGSStill1, TGSStill2, TGSStill3, TGSStill4, TGSStill5, TGSStill6, TGSStill7, TGSStill8],
 		'el-camino': [ElCaminoStill1, ElCaminoStill2, ElCaminoStill3, ElCaminoStill4, ElCaminoStill5, ElCaminoStill6, ElCaminoStill7, ElCaminoStill8, ElCaminoStill9],
-		'vanishing-point': [KaleidoskopStill1, KaleidoskopStill2, KaleidoskopStill3, KaleidoskopStill4, KaleidoskopStill5],
+		'vanishing-point': [KaleidoskopStill1, KaleidoskopStill2, KaleidoskopStill3, KaleidoskopStill4, KaleidoskopStill5, KaleidoskopStill6],
 		'la-mancha-2': [LaManchaStill1, LaManchaStill2, LaManchaStill3, LaManchaStill4, LaManchaStill5, LaManchaStill6, LaManchaStill7, LaManchaStill8],
 		'lucien': [LucienStill1, LucienStill2, LucienStill3, LucienStill4, LucienStill5, LucienStill6],
 		'macenta-beans': [MacentaBeansStill1, MacentaBeansStill2, MacentaBeansStill3, MacentaBeansStill4, MacentaBeansStill5, MacentaBeansStill6, MacentaBeansStill7, MacentaBeansStill8, MacentaBeansStill9],

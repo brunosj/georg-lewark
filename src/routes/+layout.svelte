@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '@fontsource-variable/inter';
-	import '@fontsource-variable/work-sans';
 	import '../styles/reset.css';
 	import '../styles/globals.css';
 
