@@ -19,11 +19,4 @@ color: '#225389'
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-This two-meter long immersive Kaleidoscope installation was built from wood, mirror foil and translucent plastic. The distortion, movement and reflection of the light inside this tunnel shape revolve around the spectator, turning it into a spatial building element. To feel like looking into a real Kaleidoskop, Georg used a blablabla tripod head to turn the camera around her own z-Axis.
-
-<!-- <div class="hidden-desktop">
-<ExternalLink ariaLabel="Watch" href=''>Watch</ExternalLink>
-
-![Movie Poster](../../assets/projects/i-was-never-really-here/iwnrh_poster.jpg)
-
-</div> -->
+This two-meter long immersive Kaleidoscope installation was built from wood, reflective foil and translucent plastic. To create the illusion of a tunnel that revolves around the spectator, Georg used a Ronford F7 tripod head to turn the camera around her own Z-Axis whilst moving on a dolly track inside the installation. The variation of light shapes and tones that reflect from the mirrored walls, are complimentary of the narration that accompanies this experimental short film.

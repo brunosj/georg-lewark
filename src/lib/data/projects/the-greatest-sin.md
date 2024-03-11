@@ -18,7 +18,7 @@ length: '25 minutes'
   import Link from '$lib/components/Link/Link.svelte';
 </script>
 
-The voices of four black queer men. As individual as their life stories are, they are united by growing up in a conservative and religious home.
+"The Greatest Sin“ portrays four Black queer men in Berlin and their shared experience of growing up in a conservative Christian home. Confronting the ecclesiastical conventions as the root cause of their suffering, they begin a journey of acceptance and self-love.
 
 ### Awards & Festivals
 

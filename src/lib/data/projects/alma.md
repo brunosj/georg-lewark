@@ -19,11 +19,6 @@ color: '#852324'
 
 WORK IN PROGRESS
 
-A young woman's journey leads to her confrontation with her roots and acceptance of her hybrid identity.
+An unexpected phone call from her sister forces free-spirited Alma to travel to her conservative hometown in Italy. Along the way, in a search for belonging, she finds herself repeatedly confronted by differences, similarities and moral border crossings through various encounters. These inspire Alma to re-think and question her origins and identity, to challenge her traditional views and ultimately to see the local culture in a new light.
 
-<div class="hidden-desktop">
-<!-- <ExternalLink ariaLabel="Watch" href='https://vimeo.com/764106187'>Watch</ExternalLink> -->
-
-<!-- ![Movie Poster](../../assets/projects/alma/alma_still2.jpg) -->
-
-</div>
+Similar to the protagonist's fluid identity, the hybrid form of the 90-minute road movie blurs the boundaries between fictional and documentary worlds. Instead of trying to stage culture, it utilizes what is available in abundance: authentic everyday life. The representation of reality is essential in the development that our protagonist undergoes. Because dealing with culture requires the representation of culture.

@@ -6,7 +6,7 @@ This repo contains the website of Berlin-based filmmaker, [Georg Lewark](https:/
 
 ## Technologies
 
-The site is a minimalist [Sveltekit](https://kit.svelte.dev/) project deployed on [Vercel](https://vercel.com/).
+The site is a minimalist [SvelteKit](https://kit.svelte.dev/) project deployed on [Vercel](https://vercel.com/).
 
 ## Installation
 
