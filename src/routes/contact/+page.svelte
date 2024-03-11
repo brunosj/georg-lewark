@@ -72,12 +72,12 @@
 		flex-direction: column;
 		/* justify-content: space-between; */
 		width: 100%;
+		margin: auto;
 	}
 
 	.info {
 		display: flex;
 		width: 100%;
-		margin: auto;
 		gap: 2rem;
 	}
 
