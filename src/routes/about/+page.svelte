@@ -8,7 +8,7 @@
 	import Img from '@zerodevx/svelte-img';
 
 	// SEO
-	let title = 'about';
+	let title = 'About';
 	let metadescription = '';
 	const breadcrumbs = [
 		{
@@ -16,7 +16,7 @@
 			slug: ''
 		},
 		{
-			name: 'about',
+			name: 'About',
 			slug: 'about'
 		}
 	];

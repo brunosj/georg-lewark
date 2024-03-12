@@ -7,7 +7,7 @@
 	import SEO from '$lib/components/SEO/index.svelte';
 
 	// SEO
-	let title = 'imprint + privacy policy';
+	let title = 'Imprint';
 	let metadescription = '';
 	const breadcrumbs = [
 		{
@@ -23,7 +23,7 @@
 		breadcrumbs,
 		title,
 		metadescription,
-		slug: 'contact',
+		slug: 'imprint',
 		datePublished: '2023-12-05T14:19:33.000+0100',
 		lastUpdated: '2021-12-05T14:19:33.000+0100'
 	};
@@ -41,7 +41,7 @@
 				<div class="content">
 					<div class="description">
 						<h2 transition:fade={{ duration: 500, delay: 0, easing: cubicInOut }}>
-							imprint + privacy policy
+							Imprint / Privacy Policy
 						</h2>
 					</div>
 					<div
