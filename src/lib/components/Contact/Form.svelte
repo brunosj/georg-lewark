@@ -44,7 +44,7 @@
 	<div class="container">
 		<form
 			method="POST"
-			action="/contact"
+			action="/about"
 			use:enhance={() => {
 				return ({ update, result }) => {
 					handle_result(result);

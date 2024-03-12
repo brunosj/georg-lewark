@@ -1,6 +1,6 @@
 ---
-name: 'contact'
-slug: 'contact'
+name: 'about'
+slug: 'about'
 ---
 
 <script>

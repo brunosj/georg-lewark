@@ -3,11 +3,13 @@
 	import '../styles/globals.css';
 
 	import Header from '$components/Header/Header.svelte';
+	import Footer from '$components/Footer/Footer.svelte';
 </script>
 
 <main class="content">
 	<Header />
 	<slot />
+	<Footer />
 </main>
 
 <style>

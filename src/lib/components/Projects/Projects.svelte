@@ -72,7 +72,7 @@
 		margin: auto;
 		display: inline-flex;
 		padding: 0.5rem 2rem;
-		gap: 0.8rem;
+		gap: 0.6rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;

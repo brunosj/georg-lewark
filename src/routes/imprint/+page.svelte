@@ -35,7 +35,7 @@
 
 <SEO {...seoProps} />
 <section bind:this={element}>
-	<div class="page-container">
+	<div class="container">
 		<IntersectionObserver {element} bind:intersecting once threshold={0.3}>
 			{#if intersecting}
 				<div class="content">
@@ -61,12 +61,14 @@
 		width: 100%;
 		color: white;
 		position: relative;
-		margin-top: 4rem;
+		margin-top: 5rem;
 		margin-bottom: 2rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	h2 {
-		color: var(--color-secondary);
+		color: var(--color-primary);
 	}
 
 	.markdown {
@@ -80,16 +82,11 @@
 	@media (min-width: 55em) {
 		section {
 			margin-top: 7rem;
+			width: 75%;
 		}
 
 		.description {
-			width: 75%;
-			margin: 0 auto;
-			margin-bottom: 2rem;
-		}
-
-		.markdown {
-			width: 75%;
+			margin-bottom: 4rem;
 		}
 	}
 </style>

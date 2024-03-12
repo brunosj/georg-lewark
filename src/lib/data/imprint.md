@@ -3,23 +3,21 @@ name: 'imprint + privacy policy'
 slug: 'imprint'
 ---
 
-### Imprint for landozone.net
+### Imprint for georglewark.de
 
 Responsible for the content of this website:
 
-Bruno SJ<br/>contact@landozone.net
+Georg Lewark <br/>hello@georglewark.de
 
 Please do not hesitate to contact us if you have any questions or concerns regarding the content of this website.
 
-<br/>
-
-### Privacy Policy for landozone.net
+### Privacy Policy for georglewark.de
 
 1. **Introduction:**
-   Welcome to landozone.net. This Privacy Policy explains how we handle any information collected from users of this website.
+   Welcome to georglewark.de. This Privacy Policy explains how we handle any information collected from users of this website.
 
 2. **Data Collection:**
-   We do not collect any personal information, such as names, addresses, or contact details, from visitors to landozone.net.
+   We do not collect any personal information, such as names, addresses, or contact details, from visitors to georglewark.de.
 
 3. **Cookies:**
    We do not use cookies or any similar tracking technologies on this website.
@@ -34,8 +32,8 @@ Please do not hesitate to contact us if you have any questions or concerns regar
    We reserve the right to update or change this Privacy Policy at any time. Any changes will be posted on this page.
 
 7. **Contact Information:**
-   If you have any questions or concerns about this Privacy Policy, you can contact us at contact@landozone.net.
+   If you have any questions or concerns about this Privacy Policy, you can contact us at hello@georglewark.de.
 
 <br/>
 
-Last updated on 11.01.2024
+Last updated on 12.04.2024

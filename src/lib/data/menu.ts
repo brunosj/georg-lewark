@@ -5,7 +5,7 @@ export const menu = [
 	},
 
 	{
-		name: 'Contact',
-		slug: '/contact'
+		name: 'About',
+		slug: '/about'
 	}
 ];

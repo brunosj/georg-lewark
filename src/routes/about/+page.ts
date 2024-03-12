@@ -1,6 +1,6 @@
 export async function load() {
 	try {
-		const item = await import(`../../lib/data/contact.md`);
+		const item = await import(`../../lib/data/about.md`);
 		return {
 			content: item.default,
 			meta: item.metadata

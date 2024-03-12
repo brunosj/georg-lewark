@@ -1,4 +1,4 @@
-![landozone](static/og_image.jpg)
+![georg-lewark](static/og_image.jpg)
 
 ## Description
 

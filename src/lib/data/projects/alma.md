@@ -10,6 +10,7 @@ director: 'Alice Palchetti'
 slug: 'alma'
 order: 8
 color: '#852324'
+length: '90 minutes'
 ---
 
 <script>
