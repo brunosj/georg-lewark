@@ -62,17 +62,15 @@
 
 <style>
 	.filter-container {
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 		display: inline-flex;
 		width: 100%;
 	}
 
 	.filters {
-		/* background-color: var(--color-gray); */
 		margin: auto;
 		display: inline-flex;
-		padding: 0.5rem 2rem;
-		gap: 0.6rem;
+		gap: 0.5rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -105,6 +103,10 @@
 	@media (min-width: 50em) {
 		.filters {
 			gap: 2rem;
+		}
+
+		.filter-container {
+			margin-bottom: 3rem;
 		}
 	}
 </style>

@@ -98,7 +98,7 @@
 		display: flex;
 		align-items: center;
 		flex-direction: row;
-		gap: 0.7rem;
+		gap: 1rem;
 	}
 
 	@media (min-width: 55em) {
@@ -107,7 +107,7 @@
 		}
 
 		.menu {
-			gap: 1rem;
+			gap: 1.5rem;
 		}
 	}
 </style>
