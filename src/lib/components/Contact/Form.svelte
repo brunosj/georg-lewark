@@ -3,8 +3,6 @@
 	import { elasticOut, cubicInOut } from 'svelte/easing';
 	import { fade } from 'svelte/transition';
 
-	let form: HTMLFormElement;
-
 	interface SpinParams {
 		delay: number;
 		duration: number;
@@ -16,8 +14,14 @@
 	let success = false;
 	let message_type = 'error';
 
+	interface FormData {
+		email?: string;
+		missing?: boolean;
+	}
+
+	let form: FormData | null = null;
+
 	const handle_result = (result: any) => {
-		console.log(result);
 		if (result.data.success === true) {
 			success = true;
 		} else if (result.data.success === false) {

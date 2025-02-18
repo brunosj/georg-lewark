@@ -5,10 +5,10 @@ url: ''
 type: 'documentary'
 description: "A young woman's journey leads to her confrontation with her roots and acceptance of her hybrid identity."
 producer: 'Georg Lewark'
-writer: ''
+writer: 'Georg Lewark'
 director: 'Georg Lewark'
 slug: 'el-camino'
-order: 6
+order: 8
 color: '#4E4784'
 length: ''
 ---

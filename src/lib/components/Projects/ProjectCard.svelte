@@ -10,7 +10,7 @@
 
 	let { name, year, type, description, slug } = item;
 
-	let projectImage: string;
+	let projectImage: string = '';
 	let projectStills: string[] = [];
 
 	let isHovered = false;
@@ -23,9 +23,9 @@
 		isHovered = false;
 	}
 
-	onMount(() => {
-		projectImage = getProjectImage(slug);
-		projectStills = getProjectStills(slug);
+	onMount(async () => {
+		projectImage = await getProjectImage(slug);
+		projectStills = await getProjectStills(slug);
 	});
 </script>
 
@@ -132,15 +132,7 @@
 		transition: all 0.3s ease-in-out;
 	}
 
-	.mobile {
-		display: none;
-	}
-
 	@media (min-width: 50em) {
-		.mobile {
-			display: block;
-		}
-
 		li {
 			width: 100%;
 			border-radius: 0px;

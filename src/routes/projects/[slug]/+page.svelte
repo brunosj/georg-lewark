@@ -10,7 +10,7 @@
 	import { getProjectImage, getProjectStills } from '$lib/utils/getProjectVisuals';
 
 	let item: Project = data.meta;
-	let projectImage: string;
+	let projectImage: string = '';
 	let projectStills: string[] = [];
 
 	let {
@@ -29,9 +29,9 @@
 		cinematography
 	} = item;
 
-	onMount(() => {
-		projectImage = getProjectImage(slug);
-		projectStills = getProjectStills(slug);
+	onMount(async () => {
+		projectImage = await getProjectImage(slug);
+		projectStills = await getProjectStills(slug);
 	});
 </script>
 

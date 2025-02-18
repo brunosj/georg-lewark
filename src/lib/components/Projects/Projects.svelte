@@ -11,7 +11,7 @@
 
 	let filteredProjects: Project[];
 	let selectedFilter: string;
-	$: filteredProjects = projects.sort((a, b) => (a.order < b.order ? 1 : -1));
+	$: filteredProjects = projects;
 	$: selectedFilter = 'all';
 
 	function filterByType(type: string) {
