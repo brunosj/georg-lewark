@@ -6,7 +6,7 @@
 	import SEO from '$components/SEO/SEO.svelte';
 	import Img from '@zerodevx/svelte-img';
 	import ExternalLink from '$components/Link/ExternalLink.svelte';
-	import { Lightbox, LightboxGallery, GalleryThumbnail, GalleryImage } from 'svelte-lightbox';
+	import { Lightbox, LightboxGallery, GalleryThumbnail, GalleryImage, i18n } from 'svelte-lightbox';
 	import { getProjectImage, getProjectStills } from '$lib/utils/getProjectVisuals';
 
 	let item: Project = data.meta;
@@ -40,10 +40,12 @@
 <article>
 	<section class="stills">
 		<LightboxGallery
-			arrowsConfig={{ color: 'transparent', character: 'loop', enableKeyboardControl: true }}>
+			arrowsConfig={{ color: 'transparent', character: 'loop', enableKeyboardControl: true }}
+			description=""
+			title="">
 			<svelte:fragment slot="thumbnail">
 				{#each projectStills as still, i}
-					<GalleryThumbnail title="name" id={i}>
+					<GalleryThumbnail title={name} id={i}>
 						<div class="still">
 							<Img src={still} alt={name || ''} />
 						</div>
@@ -53,7 +55,7 @@
 
 			{#each projectStills as still}
 				<div class="image-container">
-					<GalleryImage title={'Name'} description="image">
+					<GalleryImage title="" description="">
 						<Img src={still} alt={name || ''} />
 					</GalleryImage>
 				</div>
@@ -159,6 +161,7 @@
 
 	:global(.svelte-lightbox-footer) {
 		margin-top: 0.5rem;
+		display: none;
 	}
 
 	article {

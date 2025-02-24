@@ -1,5 +1,5 @@
 ---
-name: 'Wenn du Lust hast'
+name: 'Wenn Du Lust Hast'
 year: '2024'
 url: ''
 type: 'fiction'
@@ -18,7 +18,7 @@ length: '5 minutes'
   import Link from '$lib/components/Link/Link.svelte';  
 </script>
 
-<span style="font-style: italic;">Wenn Du Lust Hast</span> explores intimacy in an authentic and unexpected way. The short film follows Paul, Kim, and Ole, whose relationship dynamic oscillates between tenderness, desire, and inner turmoil. Within the confines of a single room, an emotionally charged triangle unfolds, probing the boundaries of love, longing, and morality.
+Wenn Du Lust Hast explores intimacy in an authentic and unexpected way. The short film follows Paul, Kim, and Ole, whose relationship dynamic oscillates between tenderness, desire, and inner turmoil. Within the confines of a single room, an emotionally charged triangle unfolds, probing the boundaries of love, longing, and morality.
 
 The camera captures not only closeness but also the tension between the characters. When Paul gazes directly into the camera, breaking the fourth wall, it challenges viewers to confront their own perspective on the intimacy portrayed. A bold and empathetic exploration of modern relationships that lingers in the mind.
 

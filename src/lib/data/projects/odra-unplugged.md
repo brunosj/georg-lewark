@@ -6,7 +6,7 @@ type: 'documentary'
 description: ''
 producer: 'Susanne Schüle'
 writer: ''
-director: 'Susanne Schüle'
+director: 'Mimi Zak'
 slug: 'odra-unplugged'
 order: 7
 color: '#823257'

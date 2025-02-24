@@ -43,7 +43,7 @@
 					<h3>Georg Lewark</h3>
 					<p>Cinematography // Photography</p>
 					<div class="links">
-						<ExternalLink href="mailto:info@georglewark.de" ariaLabel="mail button"
+						<ExternalLink href="mailto:mail@georglewark.de" ariaLabel="mail button"
 							>mail</ExternalLink>
 						<ExternalLink href="https://www.instagram.com/g.lewark/" ariaLabel="instagram button"
 							>instagram</ExternalLink>
