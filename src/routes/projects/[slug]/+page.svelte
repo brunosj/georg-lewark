@@ -226,6 +226,7 @@
 		.content {
 			grid-column: 2 / 4;
 			width: 75%;
+			min-height: 55vh;
 			/* margin: auto; */
 		}
 

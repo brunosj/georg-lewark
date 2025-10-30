@@ -26,7 +26,6 @@
 
 	let projects: Project[];
 	$: projects = data.projects.sort((a, b) => (a.order < b.order ? -1 : 1));
-	$: console.log(projects);
 </script>
 
 <SEO {...seoProps} />
