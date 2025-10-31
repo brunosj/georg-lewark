@@ -29,6 +29,9 @@ I WAS NEVER REALLY HERE is a love story about two boys who meet over a summer th
 
 ### Awards & Festivals
 
+- 2024 - <ExternalLink href='https://www.imdb.com/event/ev0001748/2024/1/?ref_=nmawd_1' ariaLabel='Tallgrass Film Festival Award'>
+  Tallgrass Film Festival Outstanding Cinematography Award
+  </ExternalLink>
 - 2023 - <ExternalLink href='https://www.fbw-filmbewertung.com/film/i_was_never_really_here' ariaLabel='Deutsche Film- und Medienbewertung Prädikat link'>Deutsche Film- und Medienbewertung Prädikat: Besonders Wertvoll</ExternalLink>
 - 2023 - <ExternalLink href='https://kurzfilmtournee.de/de/filme/3434.html' ariaLabel='Deutscher Kurzfilmpreis link'>Deutscher Kurzfilmpreis</ExternalLink> / Spielfilm 10 bis 30 Minuten / Nomination
 - 2023 - <ExternalLink href='https://www.crew-united.com/redir.asp?url=https%3A%2F%2Fclermont-filmfest.org&token=38e9c5dc959b8b3b6088e8e1a352fbbb' ariaLabel='Clermont-Ferrand International Short Film Festival link'>Clermont-Ferrand International Short Film Festival</ExternalLink> / African Perspectives / Nomination
